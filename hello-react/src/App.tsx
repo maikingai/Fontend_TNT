@@ -9,7 +9,7 @@ import About from './tnt/about'
 function App() {
   const [count, setCount] = useState(0)
   const [state,setState]=useState<string>("You here");
-  const data: string[]=["a","b","c"]
+  const data: string[]=["a","b","c","d"]
 
   return (
     <>
